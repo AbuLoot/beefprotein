@@ -1,0 +1,347 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
+body {
+  /*font-family: 'Bebas Neue', cursive;*/
+
+  /*line-height: 1.6;*/
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  /*font-family: 'Bebas Neue', "Roboto", Helvetica, Arial, cursive;*/
+}
+@media (min-width:1200px) {
+  .container {
+    max-width:1190px;
+  }
+}
+.bg-header {
+  background-color: #000000;
+  background-image: url(../../img/promo/collagen/protein-header.jpg);
+  /*background-image: url(../../img/promo/collagen/ZS4vkkB.jpg);*/
+  /*background-image: url(../../img/promo/collagen/bodybuilder-new.jpg);*/
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  background-size: 130%;
+}
+@media (max-width: 479px) {
+  .bg-header {
+    min-height: 600px;
+    background-color: #000000;
+    background-image: url(../../img/promo/collagen/bodybuilder.jpg);
+    /*background-image: url(../../img/promo/collagen/hulk.jpg);*/
+    background-position: top center;
+    background-size: cover;
+  }
+}
+.bg-green {
+  background-color: #1b6736;
+}
+.bg-standarts {
+  line-height: 0;
+  background-color: #111111;
+  background-image: linear-gradient(to bottom, #000000, #040404, #090909, #0d0d0d, #101010);
+}
+.glow-green {
+  background: rgb(1,161,6);
+  background: -moz-radial-gradient(circle, rgba(1,161,6,0.9528186274509804) 0%, rgba(255,255,255,0) 70%);
+  background: -webkit-radial-gradient(circle, rgba(1,161,6,0.9528186274509804) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(circle, rgba(1,161,6,0.9528186274509804) 0%, rgba(255,255,255,0) 70%);
+}
+.red {
+  color: #CE0A00;
+}
+.yellow {
+  color: #ffed00;
+}
+.modal .modal-content {
+  color: #fff;
+  background-color: #000;
+}
+.modal .close,
+.modal input::placeholder,
+.modal .modal-content h3,
+.modal .modal-content h4 {
+  color: #fff;
+}
+.modal input[type=email],
+.modal input[type=number],
+.modal input[type=tel],
+.modal input[type=text],
+.modal select {
+  color: #fff;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+/* Biotic Logo */
+.navbar-brand {
+  padding: 0;
+}
+.biotic-logo {
+  /*position: absolute;*/
+  display: block;
+  /*padding: 25px 15px 10px;*/
+  /*border-bottom-right-radius: 25px;*/
+  /*border-bottom-left-radius: 25px;*/
+  /*background-color: #f6f7f7;*/
+  /*background-color: #333;*/
+}
+.biotic-logo > img {
+  max-width: 100px;
+}
+.navbar-toggler {
+  height: 40px;
+  border: none;
+}
+
+.header-main-content {
+  padding: 100px 0 100px;
+}
+.section-custom-padding {
+   padding: 80px 0;
+}
+.header-title {
+  font-size: 70px;
+  letter-spacing: 0px;
+  color: #fff;
+}
+.color-green {
+  color: #01a106;
+}
+.header-price {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.banka1 {
+  position: absolute;
+  top: -10%;
+  right: 0;
+}
+.banka2 {
+  position: absolute;
+  top: -10%;
+  left: -30px;
+}
+.phones {
+  max-width: 240px;
+  text-align: center;
+  margin: 20px 0 0 auto;
+}
+.phones a {
+  max-width: 240px;
+  color: #1b6736;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.phones > a > i {
+  font-size: 24px;
+}
+
+/* Buttons */
+.btn-app {
+  -moz-box-shadow: 0px 10px 14px -7px #3e7327;
+  -webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  /*background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #01a107), color-stop(1, #1a1f17));
+  background:-moz-linear-gradient(top, #01a107 5%, #1a1f17 100%);
+  background:-webkit-linear-gradient(top, #01a107 5%, #1a1f17 100%);
+  background:-o-linear-gradient(top, #01a107 5%, #1a1f17 100%);
+  background:-ms-linear-gradient(top, #01a107 5%, #1a1f17 100%);
+  background:linear-gradient(to bottom, #01a107 5%, #1a1f17 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#01a107', endColorstr='#1a1f17',GradientType=0);*/
+  background-color: #01a107;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-shadow:0px 1px 0px #5b8a3c;
+}
+.btn-app-p {
+  font-weight: bold;
+  padding: 10px 42px;
+}
+.btn-app:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #01a107));
+  background:-moz-linear-gradient(top, #72b352 5%, #01a107 100%);
+  background:-webkit-linear-gradient(top, #72b352 5%, #01a107 100%);
+  background:-o-linear-gradient(top, #72b352 5%, #01a107 100%);
+  background:-ms-linear-gradient(top, #72b352 5%, #01a107 100%);
+  background:linear-gradient(to bottom, #72b352 5%, #01a107 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#01a107',GradientType=0);
+  background-color:#72b352;
+  color:#ffffff;
+}
+.btn-app:active {
+  position:relative;
+  top:1px;
+}
+
+/* WHO NEEDS COLLAGEN */
+.why-beefprotein {
+  color: #fff;
+  font-size: 18px;
+  background-color: #000;
+  background-image: url(../../img/promo/collagen/protein-need.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.why-beefprotein h2 {
+  margin-bottom: 20px;
+}
+.why-beefprotein p {
+  margin-bottom: 10px;
+}
+.why-beefprotein ul {
+  margin-left: 20px;
+}
+
+/* WHO NEEDS COLLAGEN */
+.bg-who-needs {
+  background-color: #000;
+  background-image: url(../../img/promo/collagen/body2.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.cover-dark {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.12) 100%);
+}
+.cover-left {
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 60%);
+}
+.bg-who-needs div > .row {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
+}
+.list-who-needs {
+  /*list-style-type: disc;*/
+  padding: 25px 0 0 20px;
+  color: #fff;
+}
+.list-who-needs > li {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.bg-who-needs h2 {
+  margin-bottom: 20px;
+}
+.bg-who-needs p {
+  margin-bottom: 10px;
+}
+
+/* BENEFITS OF COLLAGEN */
+.bg-benefits {
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #000000;
+  background-image: url(../../img/promo/collagen/protein-advantages.jpg);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.bg-benefits > div > .row {
+  background: rgb(0,0,0);
+  background: linear-gradient(260deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
+}
+.reviews {
+  background-color: #111;
+  background-image: url(../../img/promo/collagen/body2.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.bg-benefits h2 {
+  margin-bottom: 20px;
+}
+.bg-benefits p {
+  margin-bottom: 10px;
+}
+.bg-benefits ul {
+  margin-left: 20px;
+}
+.box-section-shadow {
+  border: 1px solid #eeeeee;
+  -moz-box-shadow: 0 0 30px rgba(170, 170, 170, 0.2);
+  -webkit-box-shadow: 0 0 30px rgba(170, 170, 170, 0.2);
+  box-shadow: 0 0 30px rgba(170, 170, 170, 0.2);
+}
+
+@media (max-width: 768px) {
+  .branding__logo > a {
+    display: block;
+    text-align: center;
+  }
+  .branding__logo > a > img {margin: 20px 0; }
+  .branding__logo > h3 {text-align: center; }
+  .phones {margin: 20px auto; }
+  .header-main-content {
+    padding: 20px 0 20px;
+    text-align: center;
+  }
+  .header-title {font-size: 36px; }
+  .section-custom-padding {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .branding__logo > a {
+    display: block;
+    text-align: center;
+  }
+  .branding__logo > a > img {margin: 20px 0; }
+  .branding__logo > h3 {text-align: center; }
+  .phones {margin: 20px auto; }
+  .header-main-content {
+    padding: 20px 0 20px;
+    text-align: center;
+  }
+  .header-title {font-size: 40px; color: #fff; }
+  .header-price > s {display: none; }
+  .made-in-turkey {
+      bottom: -340px;
+      left: 50%;
+  }
+  .banka1 {
+    top: -10%;
+    right: 0;
+  }
+  .banka2 {
+    top: -10%;
+    left: 0;
+  }
+  .why-beefprotein {
+    background-size: 350%;
+  }
+  .bg-who-needs {
+    background-color: #000;
+    background-image: url(../../img/promo/collagen/body2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .bg-benefits {
+    background-image: none;
+  }
+  .bg-benefits .pt-8 {
+    padding-top: 40px !important;
+  }
+  .bg-benefits > div > .row {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
+  }
+  .order-xs-1 {
+    -ms-flex-order:1;
+    order:1
+  }
+  .order-xs-2 {
+    -ms-flex-order:2;
+    order:2
+  }
+}
